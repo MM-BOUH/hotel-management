@@ -2,14 +2,14 @@ import React from 'react';
 import Image from 'next/image';
 
 const FeaturedRoom = () => {
-  // Styles similar to HeroVideoDescription
   const titleStyle = `text-lg font-semibold mb-4 text-orange-500`;
   const descriptionStyle = `text-gray-700 hover:text-gray-900`;
 
   return (
     <div className="flex-1 bg-gray-100 py-8 px-4 rounded-lg mx-4 my-4 md:mx-8 md:my-1 shadow-lg flex items-start">
       {/* Image Container with zoom effect on hover */}
-      <div className="w-full md:w-1/2 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out relative">
+      <div className="w-full md:w-1/2 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out relative"
+           style={{ height: '500px' }}>
         <Image 
           src="/images/rooms/room6.jpg" 
           alt="Featured Room"
