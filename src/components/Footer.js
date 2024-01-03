@@ -3,7 +3,7 @@
 const Footer = () => {
     return (
       <footer className="bg-gray-800 text-white text-center p-4">
-        <p>Hotelzz © 2024. All rights reserved.</p>
+        <p>Hotel © 2024. All rights reserved.</p>
         {/* Add other footer content */}
       </footer>
     );

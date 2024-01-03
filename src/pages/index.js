@@ -1,12 +1,13 @@
 // src/pages/index.js
 
 import Head from 'next/head';
-import Navbar from '../components/Navbar';
-import Hero from '../components/Hero';
-import RoomSelection from '../components/RoomSelection';
-import FeaturedRoom from '../components/FeaturedRoom';
-import NewsletterSignup from '../components/NewsletterSignup';
-import Footer from '../components/Footer';
+import Navbar from '@/components/Navbar';
+import Hero from '@/components/Hero';
+import RoomSelection from '@/components/RoomSelection';
+import FeaturedRoom from '@/components/FeaturedRoom';
+import NewsletterSignup from '@/components/NewsletterSignup';
+import Footer from '@/components/Footer';
+import Contact from '@/components/Contact';
 
 export default function Home() {
   return (
@@ -18,9 +19,10 @@ export default function Home() {
 
       <Navbar />
       <Hero />
-      <RoomSelection />
+      {/* <RoomSelection /> */}
       <FeaturedRoom />
-      <NewsletterSignup />
+      {/* <NewsletterSignup /> */}
+      <Contact />
       <Footer />
     </div>
   );
