@@ -73,7 +73,7 @@ const HeroDescription = () => {
   const pools = useAnimatedCounter(4);
 
   return (
-<div className="flex-1 text-center bg-gray-100 py-12 px-4 rounded-lg mx-4 my-4 md:mx-8 md:my-8">      
+    <div className="flex-1 text-center bg-gray-100 py-12 px-4 rounded-t-lg md:rounded-t-none md:rounded-l-lg mx-4 my-4 md:mx-0 md:my-0"> {/* Adjusted classes for rounded corners */}
   <h1 className="text-xl font-bold mb-3 text-orange-500">Explore Our Exquisite Hotel</h1>
       <p className="mb-6">Experience an Exquisite Hotel Immersed in Rich History and Timeless Elegance.</p>
       <div className="mt-8 grid grid-cols-2 md:grid-cols-3 gap-4 text-center">
