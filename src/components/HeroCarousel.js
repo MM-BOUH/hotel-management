@@ -1,5 +1,6 @@
 // components/HeroCarousel.js
 import { useState } from 'react';
+import Image from 'next/image';
 
 const HeroCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -26,7 +27,7 @@ const HeroCarousel = () => {
   return (
     <div className="flex-1 flex justify-center items-center overflow-hidden rounded-b-lg md:rounded-b-none md:rounded-r-lg mx-4 my-4 md:mx-0 md:my-0">
       {images.map((src, index) => (
-        <img
+        <Image
           key={src}
           src={src}
           alt={`Slide ${index}`}

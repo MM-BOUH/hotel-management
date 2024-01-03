@@ -18,12 +18,12 @@ const HeroVideoDescription = () => {
             />
           </div>
           <div className="w-full md:w-1/2 p-4">
-            <p className="text-lg font-semibold mb-4 text-orange-500">Welcome to the FASQ hotel - Nouakchott's Premier 5-Star Experience</p>
+            <p className="text-lg font-semibold mb-4 text-orange-500">Welcome to the FASQ hotel - Nouakchott&apos;.s Premier 5-Star Experience</p>
             <p className="text-gray-700 hover:text-gray-900">
               Nestled in the heart of Nouakchott, the FASQ hotel is a 5-star haven that epitomizes luxury and Mauritanian hospitality. 
               With panoramic views of the Atlantic and the city, our exquisite rooms offer unparalleled comfort and style. 
               Indulge in world-class dining, relax in our serene spa, and experience the rich local culture through our curated experiences. 
-              Our commitment to personalized service and sustainable luxury ensures an unforgettable stay in Mauritania's bustling capital.
+              Our commitment to personalized service and sustainable luxury ensures an unforgettable stay in Mauritania&apos;.s bustling capital.
             </p>
             <div className="flex justify-center space-x-4 mt-4">
               {/* Social Icons */}
